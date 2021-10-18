@@ -24,7 +24,7 @@ formAdd.addEventListener('submit', event => {
   event.preventDefault();
   
   const recipe = {
-    name: formAdd.title.value,
+    title: formAdd.title.value,
     ingredients: formAdd.ingredients.value
   };
 
